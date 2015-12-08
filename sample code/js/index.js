@@ -36,7 +36,7 @@ function createDialog() {
     	'Are you hungry, bro?',  // message
         dialogDismissed,         // callback
         'Yo ma! Can we get some meatloaf!?',            // title
-        ['Yea dude I'm famished', 'Nah m8 I just ate']                  // buttons
+        ['Yea dude im famished', 'Nah m8 I just ate']                 // buttons
     );
 
 }
