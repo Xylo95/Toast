@@ -35,7 +35,7 @@ function createDialog() {
 	navigator.notification.confirm(
     	'Are you hungry, bro?',  // message
         dialogDismissed,         // callback
-        'Yo ma! Can we get some meatloaf!?',            // title
+        'Hey ma! Can we get some meatloaf!?',            // title
         ['Yea dude im famished', 'Nah m8 I just ate']                 // buttons
     );
 
@@ -58,7 +58,7 @@ function createNotification() {
     //generate a time to post notification
     //
     var currentTime = new Date().getTime(); //current time
-    var notificationTime = new Date(currentTime + 1000); //delayed time  - add 1 second
+    var notificationTime = new Date(currentTime + 30000); //delayed time  - add 1 second
     			
     //
     //setup notification
@@ -66,7 +66,7 @@ function createNotification() {
 	window.plugin.notification.local.add({ 
     	id: 		1,
         title: 		"Hey you",
-        message: 	"This is an example notification",
+        message: 	"Get back to work, homes!",
         date: 		notificationTime, 
         badge: 		notification_count++
    	});

@@ -22,6 +22,7 @@
 	
 	<!-- required for dialogs -->
 	<gap:plugin name="org.apache.cordova.dialogs"/>
+	<plugin name="de.appplant.cordova.plugin.local-notification" spec="0.8.1" source="pgb" />
 
 
 </widget>
